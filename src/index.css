@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+/* Global Styles */
+:root {
+  --primary-color: #24292e;
+  --secondary-color: #586069;
+  --dark-color: #333333;
+  --light-color: #eff3f6;
+  --danger-color: #dc3545;
+  --success-color: #279f43;
+  --body-bgrd-color: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-break: break-word;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: var(--body-bgrd-color);
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  word-break: break-all;
+  padding: 5px;
+  color: #393e42;
+}
+
+a:hover {
+  transition: all 0.2s ease-in-out 0s;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #393e42;
+  opacity: 0.9;
+}
+
+.users {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+}
+
+.user-geral {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.user-informatio {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footer-wraper ul {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+}
+
+.footer-wraper li {
+  font-size: 0.8rem;
+  display: inline;
+  margin-right: 1rem;
+  position: relative;
+  padding: 0.2rem;
+  line-height: 26px;
+  text-decoration: none;
+  background-color: #fafbfc;
+  background-color: var(--body-bgrd-color);
+  text-align: center;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 0.3em;
+}
+
+.footer-wraper span {
+  display: block;
+  position: absolute;
+  top: -0.8rem;
+  right: -0.8rem;
+  line-height: 1rem;
+  height: 1rem;
+  padding: 0.05rem 0.4rem 0;
+  border-radius: 0.6rem;
+}
