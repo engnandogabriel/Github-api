@@ -26,7 +26,6 @@ const User = ({ data }) => {
     return diaF + "/" + mesF + "/" + anoF;
   };
 
-  // if (!data || data.length === 0) return <h2>Page not found</h2>;
   return (
     <CardGrid>
       <div className="user-geral">
@@ -57,7 +56,7 @@ const User = ({ data }) => {
       </div>
       <div className="user-informatio">
         <h3>Bio</h3>
-        <Parag>{data.bio}</Parag>
+        {data.bio ? <Parag>{data.bio}</Parag> : <Parag>Sem descrição</Parag>}
         <div className="visit-profile">
           <a href={data.html_url} alt="link perfil">
             <Button>Visite o perfil do github</Button>

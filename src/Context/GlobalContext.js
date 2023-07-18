@@ -42,7 +42,6 @@ const GithubContext = ({ children }) => {
     setErro(false);
     try {
       const repo = await api.GET_REPOS(user);
-      console.log(repo);
       setRepository(repo);
       setLoad(false);
     } catch (error) {

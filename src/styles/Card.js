@@ -68,4 +68,10 @@ export const CardGrid = styled.div`
   grid-gap: 1rem;
   padding: ${(props) => props.padding || "1rem"};
   width: 100%;
+
+  @media (max-width: 970px) {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
 `;
