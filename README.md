@@ -1,4 +1,4 @@
-# Github-FInder
+# Github-Finder
 Link para acessar o projeto: https://github-api-nu-orcin.vercel.app/
 
 Todos os dados apresentados são apenas para teste.
@@ -7,6 +7,8 @@ Todos os dados apresentados são apenas para teste.
 
 Essa é uma aplicação web desenvolvida em React. A aplicação consiste em buscador de usuários do github e exibição dos seus dados: nome, localidade, tempo de conta e
 repositórios com sua descrição para melhor experiência do usuário.
+
+ [Clique aqui para acessar o projeto em produção](https://github-api-nu-orcin.vercel.app/)
 
 ## 🚀 Overview
 ### Tela inicial do projeto
